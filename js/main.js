@@ -53,9 +53,9 @@ const AUDIO_DETAIL = [
 				"I-I'm just shy and can't express myself well..."
 			],
 			Chinese: [
-				"那个，老师……在录制之前……有件事想听你说。",
-				"其实……我一直有件事瞒着你……",
-				"我、我其实很怕生……不擅长表达自己……"
+				"老、老师……在开始录音前……有件事想告诉您……",
+				"其、其实……我一直瞒着件事……",
+				"我…我太容易害羞了……总是说不好话……"
 			]
 		}
 	},
@@ -73,8 +73,8 @@ const AUDIO_DETAIL = [
 				"That's why I got into occult stuff... to change myself"
 			],
 			Chinese: [
-				"为了隐藏这个……我才扮演阴郁的角色",
-				"接触神秘学也是……想要改变自己"
+				"为了隐藏真实的自己，我一直在扮演阴郁的角色……",
+				"甚至沉迷神秘学，也是因为想要改变这样的自己。"
 			]
 		}
 	},
@@ -92,7 +92,7 @@ const AUDIO_DETAIL = [
 				"So... keep it our secret?"
 			],
 			Chinese: [
-				"知道这个的……只有老师",
+				"这件事……只有老师您知道……",
 				"所以……要帮我保密哦？"
 			]
 		}
@@ -109,7 +109,7 @@ const AUDIO_DETAIL = [
 				"I-I trust you... Sensei..."
 			],
 			Chinese: [
-				"我、我相信老师……"
+				"我、我很信任老师哦……"
 			]
 		}
 	},
@@ -127,8 +127,8 @@ const AUDIO_DETAIL = [
 				"Sensei likes cute things, right?"
 			],
 			Chinese: [
-				"嘻嘻……上当了吗？",
-				"老师喜欢可爱的东西对吧？"
+				"……嘻嘻、嘻嘻。呐，您相信了吗？",
+				"老师……不是最喜欢可爱？"
 			]
 		}
 	},
@@ -146,7 +146,7 @@ const AUDIO_DETAIL = [
 				"Ehehe...!"
 			],
 			Chinese: [
-				"那……也喜欢这样的我吧？",
+				"那，对我的事……也是……喜欢的吧？",
 				"嘻嘻……！"
 			]
 		}
