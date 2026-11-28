@@ -45,7 +45,8 @@ const subtitleLocales = {
 	Chinese: 'zh-Hans',
 	TraditionalChinese: 'zh-Hant',
 	Japanese: 'ja',
-	Korean: 'ko'
+	Korean: 'ko',
+	Thai: 'th'
 };
 
 const CHARACTER = 'CH0306';
@@ -63,14 +64,14 @@ const AUDIO_DETAIL = [
 				"わ、私……恥ずかしがり屋で、うまく話せなくて。"
 			],
 			English: [
-				"U-um, Sensei... Before we start recording... There's something I want to ask you.",
-				"Actually... I've been hiding something...",
-				"I-I'm just shy and can't express myself well..."
+				"Sensei. Um, before we start recording...there's something I want you to know.",
+				"Th-The thing is... There's something I've been hiding from you...",
+				"I'm...very shy, and I'm not a good talker either."
 			],
 			Chinese: [
-				"老、老师……在开始录音前……有件事想告诉您……",
-				"其、其实……我一直瞒着件事……",
-				"我……我太容易害羞了……总是说不好话……"
+				"老，老师……那个，在录音之前……有件事希望你能听我说。",
+				"其，其实……有件事我一直藏在心里……",
+				"我，我其实很害羞，也不太会说话……"
 			],
 			TraditionalChinese: [
 				"老，老師……那個，在錄音之前……我想先告訴你一件事。",
@@ -81,7 +82,8 @@ const AUDIO_DETAIL = [
 				"선생님. 그, 녹음하기 전에…… 들어줬으면 하는 게 있어.",
 				"사, 사실은…… 나, 계속 숨기던 게 있어서…….",
 				"나, 난…… 부끄럼쟁이에 말도 잘하지 못해."
-			]
+			],
+			Thai: ["คุณครู เอ่อ ก่อนจะบันทึกเสียง... ฉันมีอะไรอยากให้ฟังก่อนน่ะ","ทะ... ที่จริงแล้ว... ฉัน มีบางอย่างที่ปิดบังไว้อยู่น่ะ...","ฉะ... ฉัน... เป็นคนขี้อาย แถมพูดไม่ค่อยเก่งด้วย"]
 		}
 	},
 	{
@@ -91,12 +93,12 @@ const AUDIO_DETAIL = [
 				"オカルトに手を出したのも、自分を変えたかったから。"
 			],
 			English: [
-				"I acted gloomy to hide it...",
-				"That's why I got into occult stuff... to change myself"
+				"And in order to hide that, I've been faking that gloomy personality...",
+				"The reason I got into the occult...was because I wanted to change myself."
 			],
 			Chinese: [
-				"为了隐藏真实的自己，我一直在扮演阴郁的角色……",
-				"甚至沉迷神秘学，也是因为想要改变这样的自己。"
+				"为了这个秘密不被发现，我才一直假装自己是个阴沉的人……",
+				"之所以沉迷于神秘学……也是因为想改变自己。"
 			],
 			TraditionalChinese: [
 				"為了掩飾這點，才會扮演陰沉的角色……",
@@ -105,7 +107,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"그걸 숨기기 위해, 음침한 성격을 연기했었어…….",
 				"오컬트에 빠진 것도…… 자신을 바꾸고 싶어서였어."
-			]
+			],
+			Thai: ["เลยแกล้งทำเป็น นิสัยมืดมนเพื่อปกปิด เรื่องนั้นเอาไว้","เรื่องที่หลงใหลในรหัสยศาสตร์... ก็เป็นเพราะฉันอยากเปลี่ยนตัวเอง"]
 		}
 	},
 	{
@@ -115,12 +118,12 @@ const AUDIO_DETAIL = [
 				"だから……内緒にしてね？"
 			],
 			English: [
-				"Only you know this... Sensei",
-				"So... keep it our secret?"
+				"The only person who knows the real me...is you, Sensei.",
+				"So...would you please keep it a secret?"
 			],
 			Chinese: [
-				"这件事……只有老师您知道……",
-				"所以……要帮我保密哦？"
+				"我的这副模样……只有老师知道呢。",
+				"所以……能帮我保守秘密吗？"
 			],
 			TraditionalChinese: [
 				"知道這件事的……只有老師。",
@@ -129,7 +132,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"이 모습을 아는 건…… 선생님뿐이야.",
 				"그러니까…… 비밀로 해줄래?"
-			]
+			],
+			Thai: ["คนที่เห็นด้านนี้ของฉัน... มีแค่คุณครูนะ","เพราะงั้น... ช่วยเก็บเป็นความลับไว้ได้มั้ย?"]
 		}
 	},
 	{
@@ -138,17 +142,18 @@ const AUDIO_DETAIL = [
 				"せ、先生のこと、信じてる、よ……。"
 			],
 			English: [
-				"I-I trust you... Sensei..."
+				"I-I trust you, Sensei, so..."
 			],
 			Chinese: [
-				"我、我很信任老师哦……"
+				"因，因为我相信老师，才……"
 			],
 			TraditionalChinese: [
 				"我，我相信老師唷……"
 			],
 			Korean: [
 				"서, 선생님을 믿으니, 까……"
-			]
+			],
+			Thai: ["ฉะ... ฉันไว้ใจ คุณครูนะ..."]
 		}
 	},
 	{
@@ -158,12 +163,12 @@ const AUDIO_DETAIL = [
 				"先生は、可愛いものが好きなんでしょ？"
 			],
 			English: [
-				"Hehe... Did you believe that?",
-				"Sensei likes cute things, right?"
+				"...Heehee, eheehee. Did you really fall for that, Sensei?",
+				"...Sensei, you like cute things, right?"
 			],
 			Chinese: [
-				"……嘻嘻、嘻嘻。呐，您相信了吗？",
-				"老师……不是最喜欢可爱？"
+				"……嘻嘻，咿嘻嘻。老师，这就相信了呀？",
+				"老师，你是喜欢可爱型的对吧？"
 			],
 			TraditionalChinese: [
 				"……咿嘻，咿嘻嘻。吶，你相信了嗎？",
@@ -172,7 +177,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"……히히, 이히히. 선생, 믿었어?",
 				"선생은, 귀여운 걸 좋아하지?"
-			]
+			],
+			Thai: ["ฮิฮิ... อิฮิฮิ ครู... เชื่อรึเปล่า?","ครูชอบสิ่งของ ที่น่ารักๆ ใช่มั้ย?"]
 		}
 	},
 	{
@@ -182,21 +188,22 @@ const AUDIO_DETAIL = [
 				"イヒッ……！"
 			],
 			English: [
-				"Then... you like me too, right?",
-				"Ehehe...!"
+				"That means, you...also like me, right?",
+				"Ehee...!"
 			],
 			Chinese: [
-				"那，对我的事……也是……喜欢的吧？",
+				"那么，你也……喜欢我咯？",
 				"嘻嘻……！"
 			],
 			TraditionalChinese: [
 				"那麼，應該……也喜歡我，對吧？",
-				"嘻嘻……！"
+				"咿嘻……！"
 			],
 			Korean: [
 				"그럼, 나도…… 좋아, 하는 거네?",
-				"이봐요!"
-			]
+				"이힛……!"
+			],
+			Thai: ["งั้น... ครูก็คงจะ ชอบฉันด้วยสินะ?","ฮิฮิ...!"]
 		}
 	}
 ];
@@ -308,7 +315,7 @@ function playVoiceline() {
 			track.play().catch(finish);
 
 			if (dialogBox) {
-				textbox.textContent = dialog[window.selectedLanguage][index];
+				textbox.textContent = getSubtitleText(dialog, window.selectedLanguage, index);
 				textbox.style.opacity = 1;
 			}
 		},
@@ -479,6 +486,16 @@ function setMouse(event) {
 	return { x: ax - canvas.width * positionX, y: ay - canvas.height * positionY };
 }
 
+function getSubtitleText(dialog, language, index) {
+	let text = dialog?.[language]?.[index];
+	if (text == null && language === 'Thai') {
+		language = 'English';
+		text = dialog?.[language]?.[index];
+	}
+	textbox.lang = subtitleLocales[language];
+	return text ?? "";
+}
+
 function updateSubtitleLanguage() {
 	let language = subtitleLanguagePreference;
 	if (language === 'auto') {
@@ -492,6 +509,8 @@ function updateSubtitleLanguage() {
 			language = 'Japanese';
 		} else if (primary === 'ko' || primary === 'korean' || primary === 'koreana') {
 			language = 'Korean';
+		} else if (primary === 'th' || primary === 'thai') {
+			language = 'Thai';
 		} else {
 			language = 'English';
 		}
@@ -501,7 +520,7 @@ function updateSubtitleLanguage() {
 	window.selectedLanguage = language;
 	textbox.lang = subtitleLocales[language];
 	const clip = currentTracks.at(-1);
-	if (dialogBox && clip) textbox.textContent = clip.dialog[language][clip.index];
+	if (dialogBox && clip) textbox.textContent = getSubtitleText(clip.dialog, language, clip.index);
 }
 
 function init() {
